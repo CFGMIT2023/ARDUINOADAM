@@ -14,6 +14,7 @@ const byte led4 = 9;          // donar nom al pin 9 de l’Arduino
 const byte led5 = 10;         // donar nom al pin 10 de l’Arduino
 const byte led6 = 11;         // donar nom al pin 11 de l’Arduino
 const byte led7 = 12;         // donar nom al pin 12 de l’Arduino
+unsigned long pausa = 500;             // definir variable de temps en ms
 
 //********** Setup ****************************************************************
 void setup()
